@@ -2,221 +2,218 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Randhawa Health & Supplement Hub</title>
+<title>Randhawa Health & Supplement Hub | Global Wellness Marketplace</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Premium Global Health & Supplement Marketplace. Trusted wellness products across USA, UK, Europe, Canada & Worldwide. Secure access, fast delivery and global support.">
+
+<!-- SOCIAL PREVIEW -->
+<meta property="og:title" content="Randhawa Health & Supplement Hub">
+<meta property="og:description" content="Trusted Global Wellness Products | USA, UK, Europe, Canada & Worldwide">
+<meta property="og:image" content="https://i.postimg.cc/RVvn676V/FB-IMG-1769488990426.jpg">
+<meta property="og:url" content="https://randhawapay.online">
 
 <style>
 body {
   margin: 0;
-  padding: 0;
-  background: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   font-family: Arial, sans-serif;
-}
-
-/* PHONE FRAME */
-.phone-frame {
-  width: 390px;
-  max-width: 95%;
-  height: 780px;
-  background: #111;
-  border-radius: 45px;
-  padding: 15px;
-  box-shadow: 0 0 40px rgba(255,255,255,0.2);
-  position: relative;
-}
-
-/* TOP BAR */
-.phone-top {
-  height: 30px;
-  background: #000;
-  border-radius: 20px;
-  margin-bottom: 10px;
-}
-
-/* SCREEN */
-.phone-screen {
-  width: 100%;
-  height: calc(100% - 40px);
-  background: #f4f7fb;
-  border-radius: 30px;
-  overflow-y: auto;
+  background: #f2f5f9;
 }
 
 /* HERO */
 header {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-  url("https://i.postimg.cc/XXDvtykT/FB-IMG-1769488990426.jpg") center / cover no-repeat;
-  color: white;
-  padding: 70px 15px;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+  url("https://i.postimg.cc/RVvn676V/FB-IMG-1769488990426.jpg") center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  color: white;
+  padding: 20px;
 }
 
 header h1 {
-  font-size: 22px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  max-width: 800px;
 }
 
 header p {
-  font-size: 13px;
+  font-size: 16px;
+  max-width: 700px;
+  margin: auto;
 }
 
 /* CONTAINER */
 .container {
-  padding: 15px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 25px;
 }
 
 /* TRUST BOX */
-.hero {
+.hero-box {
   background: white;
-  padding: 15px;
-  border-radius: 12px;
+  padding: 25px;
+  border-radius: 15px;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  margin-top: -80px;
 }
 
-/* PRODUCTS */
+/* PRODUCTS GRID */
 .products {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
 }
 
+/* CARD */
 .card {
   background: white;
-  border-radius: 12px;
+  border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img {
   width: 100%;
-  height: 160px;
+  height: 220px;
   object-fit: contain;
   background: #fff;
 }
 
-.card h2 {
-  font-size: 14px;
-  margin: 8px;
+.card-content {
+  padding: 15px;
+  text-align: center;
 }
 
-.card p {
-  font-size: 12px;
+.card-content h2 {
+  font-size: 18px;
+}
+
+.card-content p {
+  font-size: 14px;
   color: #555;
-  padding: 0 8px;
 }
 
 /* BUTTON */
 .btn {
   display: inline-block;
-  margin: 10px 0 15px;
-  padding: 8px 14px;
-  background: #0a7cff;
+  margin-top: 10px;
+  padding: 12px 20px;
+  background: #007bff;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 12px;
+  border-radius: 8px;
   font-weight: bold;
 }
 
-/* WHATSAPP */
+/* WHATSAPP FLOAT */
 .whatsapp {
-  position: sticky;
-  bottom: 10px;
-  display: block;
-  background: #25d366;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
   color: white;
-  text-align: center;
-  padding: 10px;
-  border-radius: 20px;
-  text-decoration: none;
+  padding: 14px 20px;
+  border-radius: 50px;
   font-weight: bold;
-  margin-top: 15px;
+  text-decoration: none;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 }
 
 /* FOOTER */
 footer {
   background: #111;
   color: white;
-  padding: 15px;
   text-align: center;
-  font-size: 11px;
+  padding: 25px;
+  margin-top: 50px;
+  font-size: 14px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="phone-frame">
-  <div class="phone-top"></div>
+<header>
+  <div>
+    <h1>Randhawa Health & Supplement Hub</h1>
+    <p>Global Health Solutions | Trusted Wellness Products Across USA, UK, Europe, Canada & Worldwide</p>
+  </div>
+</header>
 
-  <div class="phone-screen">
+<div class="container">
 
-    <header>
-      <h1>Randhawa Health & Supplement Hub</h1>
-      <p>Global Health Solutions | Trusted Wellness Products Across USA, UK, Europe, Canada & Worldwide</p>
-    </header>
+  <div class="hero-box">
+    <h2>🌍 Premium Global Health Marketplace</h2>
+    <p>Carefully selected wellness and fitness solutions designed to help customers achieve better health worldwide.</p>
+    <b>100% Secure | Fast Access | Global Support</b>
+  </div>
 
-    <div class="container">
+  <div class="products">
 
-      <div class="hero">
-        🌍 <b>Premium Global Health Marketplace</b>
-        <p>Carefully selected wellness and fitness solutions designed to help customers achieve better health worldwide.</p>
-        <b>100% Secure | Fast Access | Global Support</b>
+    <!-- PRODUCT 1 -->
+    <div class="card">
+      <img src="https://i.ibb.co/8LpjzVNQ/1769675374126.jpg">
+      <div class="card-content">
+        <h2>LeanBliss 24</h2>
+        <p>Advanced natural fat-burning formula for healthy weight management.</p>
+        <a class="btn" href="https://leanbliss24.com/text.php#aff=Randhawa5911" target="_blank">BUY NOW</a>
       </div>
-
-      <div class="products">
-
-        <div class="card">
-          <img src="https://i.ibb.co/8LpjzVNQ/1769675374126.jpg">
-          <h2>LeanBliss 24</h2>
-          <p>Advanced natural fat-burning formula for healthy weight management.</p>
-          <a class="btn" href="https://leanbliss24.com/text.php#aff=Randhawa5911" target="_blank">BUY NOW</a>
-        </div>
-
-        <div class="card">
-          <img src="https://i.ibb.co/h1HDb1WY/1769675399481.jpg">
-          <h2>Advanced Collagen Plus</h2>
-          <p>Supports joint strength, glowing skin, stronger hair and nails.</p>
-          <a class="btn" href="https://www.advancedbionutritionals.com/DS24/Collagen/This-Simple-10-Second-Kitchen-Test/HD.htm#aff=Randhawa5911" target="_blank">BUY NOW</a>
-        </div>
-
-        <div class="card">
-          <img src="https://i.ibb.co/fGC0jXFC/1769675440276.jpg">
-          <h2>Advanced Amino Formula</h2>
-          <p>Muscle recovery and strength support formula.</p>
-          <a class="btn" href="https://www.digistore24.com/redir/454003/Randhawa5911/" target="_blank">BUY NOW</a>
-        </div>
-
-        <div class="card">
-          <img src="https://i.ibb.co/9nQn8fZ/dental.jpg">
-          <h2>Dental Sugar Hack</h2>
-          <p>Advanced oral and gum health system.</p>
-          <a class="btn" href="https://dentalsugarhack.vip/discovery#aff=Randhawa5911" target="_blank">BUY NOW</a>
-        </div>
-
-      </div>
-
-      <a class="whatsapp" href="https://wa.me/917017282344" target="_blank">
-        💬 WhatsApp Support
-      </a>
-
     </div>
 
-    <footer>
-      📞 Whatsapp: +91-7017282344 | Telegram: @Internationalcrawd<br>
-      📧 Email: komalsingh963422@gmail.com<br><br>
-      © 2026 Randhawa Health & Supplement Hub | Wellness Network
-    </footer>
+    <!-- PRODUCT 2 -->
+    <div class="card">
+      <img src="https://i.ibb.co/h1HDb1WY/1769675399481.jpg">
+      <div class="card-content">
+        <h2>Advanced Collagen Plus</h2>
+        <p>Supports joint strength, glowing skin, stronger hair and nails.</p>
+        <a class="btn" href="https://www.advancedbionutritionals.com/DS24/Collagen/This-Simple-10-Second-Kitchen-Test/HD.htm#aff=Randhawa5911" target="_blank">BUY NOW</a>
+      </div>
+    </div>
+
+    <!-- PRODUCT 3 -->
+    <div class="card">
+      <img src="https://i.ibb.co/fGC0jXFC/1769675440276.jpg">
+      <div class="card-content">
+        <h2>Advanced Amino Formula</h2>
+        <p>Premium amino acid supplement for muscle recovery and performance.</p>
+        <a class="btn" href="https://www.digistore24.com/redir/454003/Randhawa5911/" target="_blank">BUY NOW</a>
+      </div>
+    </div>
+
+    <!-- PRODUCT 4 -->
+    <div class="card">
+      <img src="https://i.ibb.co/XZQW6rTz/image.jpg">
+      <div class="card-content">
+        <h2>Dental Sugar Hack</h2>
+        <p>Advanced oral and gum health support system.</p>
+        <a class="btn" href="https://dentalsugarhack.vip/discovery#aff=Randhawa5911" target="_blank">BUY NOW</a>
+      </div>
+    </div>
 
   </div>
 </div>
+
+<a class="whatsapp" href="https://wa.me/917017282344" target="_blank">
+💬 WhatsApp Support
+</a>
+
+<footer>
+📞 WhatsApp: +91-7017282344 | Telegram: @Internationalcrawd  
+<br>
+📧 Email: komalsingh963422@gmail.com  
+<br><br>
+© 2026 Randhawa Health & Supplement Hub | Wellness Network
+</footer>
 
 </body>
 </html>
