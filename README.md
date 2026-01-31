@@ -1,3 +1,214 @@
-# Komal-singh
-Komal singh Randhawa komalsingh963422@gmail.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Randhawa Health & Supplement Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BPWHJK57K6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BPWHJK57K6');
+</script>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f5f9;
+}
+
+/* HERO SECTION */
+header {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("https://i.postimg.cc/RVvn676V/FB-IMG-1769488990426.jpg")
+    center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  max-width: 800px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 16px;
+  max-width: 700px;
+  opacity: 0.9;
+}
+
+/* MAIN */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* INFO BOX */
+.info-box {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-top: -50px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+/* WHATSAPP */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Randhawa Health & Supplement Hub</h1>
+    <p>
+      Global Health Solutions | Trusted Wellness Products Across USA, UK, Europe, Canada & Worldwide
+    </p>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="info-box">
+    🌍 <strong>Premium Global Health Marketplace</strong><br><br>
+    Carefully selected wellness and fitness solutions designed to help customers achieve better health worldwide.<br><br>
+    <strong>100% Secure | Fast Access | Global Support</strong>
+  </div>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://i.ibb.co/ZM9p6sP/leanbliss.jpg" alt="LeanBliss 24">
+      <h3>LeanBliss 24</h3>
+      <p>Advanced natural fat-burning formula for healthy weight management.</p>
+      <a class="btn" href="https://leanbliss24.com/text.php#aff=Randhawa5911" target="_blank">
+        BUY NOW
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="https://i.ibb.co/3hZ9P2K/collagen.jpg" alt="Advanced Collagen Plus">
+      <h3>Advanced Collagen Plus</h3>
+      <p>Supports joint strength, glowing skin, stronger hair and nails.</p>
+      <a class="btn" href="https://www.advancedbionutritionals.com/DS24/Collagen/This-Simple-10-Second-Kitchen-Test/HD.htm#aff=Randhawa5911" target="_blank">
+        BUY NOW
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="https://i.ibb.co/2q7J0rJ/fsugarpro.jpg" alt="FSugarPro">
+      <h3>FSugarPro</h3>
+      <p>Supports healthy blood sugar levels naturally and safely.</p>
+      <a class="btn" href="https://getfsugarpro.com/dtc#aff=Randhawa5911" target="_blank">
+        BUY NOW
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="https://i.ibb.co/Tqj4jD8/dental.jpg" alt="Dental Sugar Hack">
+      <h3>Dental Sugar Hack</h3>
+      <p>Natural dental health solution for strong teeth and gums.</p>
+      <a class="btn" href="https://dentalsugarhack.vip/discovery#aff=Randhawa5911" target="_blank">
+        BUY NOW
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<a class="whatsapp" href="https://wa.me/917017282344" target="_blank">
+  💬 WhatsApp Support
+</a>
+
+<footer>
+  WhatsApp: +91-7017282344 | Telegram: @Internationalcrawd <br>
+  Email: komalsingh953422@gmail.com <br><br>
+  © 2026 Randhawa Health & Supplement Hub | Wellness Network
+</footer>
+
+</body>
+</html>
  
